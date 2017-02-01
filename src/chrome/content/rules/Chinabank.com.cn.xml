@@ -1,14 +1,25 @@
 <!--
-	CONNECTION_CLOSED:
-		report.chinabank.com.cn
+	www.chinabank.com.cn: Dropped
+
+
+	Insecure cookies are set for these hosts:
+
+		- merchant3.chinabank.com.cn
+
 -->
+<ruleset name="Chinabank.com.cn (partial)">
 
-<ruleset name="Chinabank.com.cn">
+	<target host="merchant3.chinabank.com.cn" />
 
-	<target host="chinabank.com.cn" />
-	<target host="www.chinabank.com.cn" />
-	<target host="pay.chinabank.com.cn" />
-	<target host="pay3.chinabank.com.cn" />
 
-	<rule from="^http:" to="https:" />
+	<!--	Not secured by server:
+					-->
+	<!--securecookie host="^merchant3\.chinabank\.com\.cn$" name="^JSESSIONID$" /-->
+
+	<securecookie host="^\w" name="." />
+
+
+	<rule from="^http:"
+		to="https:" />
+
 </ruleset>

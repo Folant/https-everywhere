@@ -194,6 +194,7 @@
 	<target host="dobro.mail.ru" />
 	<target host="dwar.mail.ru" />
 	<!--target host="d2.dwar.mail.ru" /-->
+	<target host="e.mail.ru" />
 	<target host="filin.mail.ru" />
 	<target host="avt.foto.mail.ru" />
 	<target host="*.foto.mail.ru" />

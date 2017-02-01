@@ -11,4 +11,3 @@ env:
   - TEST=chromium
   - TEST=rules
   - TEST=fetch
-  - TEST=preloaded
