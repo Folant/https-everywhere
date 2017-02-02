@@ -22,6 +22,8 @@
 	<target host="enwp.org" />
 	<target host="frwp.org" />
 
+	<target host="wikimedia.org" />
+	<target host="*.wikimedia.org" />
 
 	<!-- Wikimedia Tool Labs -->
 	<target host="tools.wmflabs.org" />
